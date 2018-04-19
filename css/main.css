@@ -1,0 +1,24 @@
+
+
+    font-family: 'Lato', sans-serif;
+
+    font-family: 'Righteous', cursive;
+
+.header {
+  background-color: #864c7d;
+}
+
+header {
+  background-color: #864c7d;
+}
+
+a {
+  font-family: 'Righteous', cursive;
+  background-color: #864c7d;
+  color: #fff;
+  list-style-type: none;
+}
+
+ul {
+  font-family: 'Righteous', cursive;
+}
