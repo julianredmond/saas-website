@@ -12,13 +12,38 @@ header {
   background-color: #864c7d;
 }
 
+h1 {
+  margin-top: 1em;
+  margin-left: 1em;
+}
+
+.adroll {
+  border: 1px solid black;
+}
+
 a {
   font-family: 'Righteous', cursive;
-  background-color: #864c7d;
-  color: #fff;
   list-style-type: none;
+  text-decoration: none;
+}
+
+header a {
+  color: #fff;
 }
 
 ul {
   font-family: 'Righteous', cursive;
+}
+
+img {
+  opacity: .3;
+}
+
+main {
+  font-family: 'Lato', sans-serif;
+}
+
+main a {
+  color: black;
+  background-color: #5fbef0;
 }
