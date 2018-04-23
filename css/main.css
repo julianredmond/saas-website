@@ -31,7 +31,7 @@ header a {
   color: #fff;
 }
 
-ul {
+header ul {
   font-family: 'Righteous', cursive;
 }
 
@@ -56,11 +56,22 @@ main a {
   bottom: 10em;
 }
 
+.purpleheaders {
+  font-family: 'Righteous', cursive;
+  color: #864c7d;
+}
+
 footer {
   background-color: #864c7d;
 }
 
+.cards {
+  background-color: #5fbef0;
+}
 
+.pink {
+  background-color: #f4bfd2;
+}
 
 
 
