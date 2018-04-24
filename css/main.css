@@ -1,3 +1,12 @@
+.skip-links a {
+  position: absolute;
+  top: -3em;
+}
+
+.skip-links a:focus {
+  top: 0;
+}
+
 .header {
   background-color: #864c7d;
 }
@@ -16,15 +25,14 @@ h1 {
 }
 
 a {
-  font-family: 'Lato', sans-serif;
+  font-family: Lato, sans-serif;
   list-style-type: none;
   text-decoration: none;
-  font-style: bold;
 }
 
 header a {
   color: #fff;
-  font-family: 'Righteous', cursive;
+  font-family: Righteous, cursive;
 }
 
 header a:hover {
@@ -37,17 +45,17 @@ header a:hover {
 }
 
 main {
-  font-family: 'Lato', sans-serif;
+  font-family: Lato, sans-serif;
 }
 
-.button {
+.btn {
   color: #000;
   background-color: #94d4f5;
   border-radius: 7px;
   border: none;
 }
 
-.button:hover {
+.btn:hover {
   background-color: #5fbef0;
   color: #000;
 }
@@ -58,12 +66,12 @@ main {
 }
 
 .purpleheaders {
-  font-family: 'Righteous', cursive;
+  font-family: Righteous, cursive;
   color: #864c7d;
 }
 
 footer {
-  font-family: 'Lato', sans-serif;
+  font-family: Lato, sans-serif;
   background-color: #864c7d;
   color: #fff;
 }
@@ -98,6 +106,10 @@ fieldset {
 
 .account {
   color: #000;
+}
+
+.account:hover {
+  color: #6e3865;
 }
 
 .icons {

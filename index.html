@@ -5,15 +5,20 @@
   <title>Home</title>
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <link href="css/modules.css" rel="stylesheet">
-  <link href="css/type.css" rel="stylesheet">
   <link href="css/grid.css" rel="stylesheet">
+  <link href="css/type.css" rel="stylesheet">
   <link href="css/main.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Lato:400,700|Righteous" rel="stylesheet">
 </head>
 
 <body>
 
-  <header>
+  <ul class="skip-links">
+    <li><a href="#main">Jump to main content</a></li>
+    <li><a href="#nav">Jump to navigation</a></li>
+  </ul>
+
+  <header role="banner">
 
     <div class="grid header">
 
@@ -22,7 +27,7 @@
       </div>
 
       <div class="unit xs-1-2 s-1-2 m-3-4 l-3-4 xl-3-4 pad-t-2 push">
-        <nav>
+        <nav role="navigation" id="nav" tabindex="0">
           <ul class="grid list-group-inline center-flow">
 
             <li class="unit xs-1 s-1-2 m-1-4 l-1-4 xl-1-4 push-1-2"><a class="island-1-4 gutter" href="tour.html">Tour</a></li>
@@ -38,18 +43,20 @@
 
   </header>
 
-  <main>
+  <main role="main" id="main" tabindex="0">
 
-    <div class="embed embed-golden">
-      <img class="embed-item img-flex main-img" src="images/mural.jpg" alt="">
-    </div>
-    <div class="center-flow banner">
-      <h2 class="text-upper push-none zetta not-bold">Get Started With Adroll Now</h2>
-      <p class="giga">Start your 2 week free trial</p>
-      <div class="push-2">
-        <a class="island-1-4 bold button" href="sign-up.html">Try Free Today</a>
+    <section>
+      <div class="embed embed-golden">
+        <img class="embed-item img-flex main-img" src="images/mural.jpg" alt="">
       </div>
-    </div>
+      <div class="center-flow banner">
+        <h2 class="text-upper push-none zetta not-bold">Get Started With Adroll Now</h2>
+        <p class="giga">Start your 2 week free trial</p>
+        <div class="push-2">
+          <a class="island-1-4 bold btn" href="sign-up.html">Try Free Today</a>
+        </div>
+      </div>
+    </section>
 
     <div class="grid">
 
@@ -60,7 +67,7 @@
         </i>
         <p>We are a software company that helps small businesses with their online advertising and marketing. We help all types of people and businesses in every situation.</p>
         <div>
-          <a class="island-1-4 bold button" href="tour.html">Learn More</a>
+          <a class="island-1-4 bold btn" href="tour.html">Learn More</a>
         </div>
       </div>
 
@@ -71,7 +78,7 @@
         </i>
         <p>We offer many different plans for all types of businesses and advertising needs. Browse our plans section to find the right one for you and your business.</p>
         <div>
-          <a class="island-1-4 bold button" href="pricing.html">Learn More</a>
+          <a class="island-1-4 bold btn" href="pricing.html">Learn More</a>
         </div>
       </div>
 
@@ -82,7 +89,7 @@
         </i>
         <p>We make online advertising easy for everyone. Simply choose the plan that best suits your needs and get signed up. Or you can try our 2 week trial today for free!</p>
         <div>
-          <a class="island-1-4 bold button" href="sign-up.html">Learn More</a>
+          <a class="island-1-4 bold btn" href="sign-up.html">Learn More</a>
         </div>
       </div>
 
@@ -90,19 +97,19 @@
 
   </main>
 
-  <footer>
+  <footer role="contentinfo">
 
     <div class="grid">
 
       <div class="unit xs-1-2 s-1-2 m-1-2 l-1-2 xl-1-2 inline-block island micro">
-        <p class="push-none"><a class="phone" href="">613-123-4567</a></p>
+        <p class="push-none"><a class="phone" href="index.html">613-123-4567</a></p>
         <p class="push-none">123 Fake St. Ottawa, ON</p>
-        <p class="push-none">&copy 2018 Julian Redmond All Rights Reserved</p>
+        <p class="push-none">&copy; 2018 Julian Redmond All Rights Reserved</p>
       </div>
 
       <div class="unit xs-1-2 s-1-2 m-1-2 l-1-2 xl-1-2 unit-content-center">
         <i class="icon i-96 inline-block valign-top">
-          <img class="" src="images/facebook.svg" alt="">
+          <img src="images/facebook.svg" alt="">
         </i>
       </div>
 
