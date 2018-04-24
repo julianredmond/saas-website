@@ -10,75 +10,108 @@
   <link href="css/main.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Lato:400,700|Righteous" rel="stylesheet">
 </head>
+
 <body>
 
   <header>
-    <div class="header">
-      <div class="inline-block valign-top">
+
+    <div class="grid header">
+
+      <div class="unit xs-1-2 s-1-2 m-1-4 l-1-4 xl-1-4 push valign-top">
         <h1 class="push-none"><a class="island-1-2 text-upper adroll" href="index.html">Adroll</a></h1>
       </div>
-      <nav class="inline-block width-half pad-t">
-        <ul class="list-group-inline center-flow">
-          <li class="gutter-2 push-1-2"><a href="tour.html">Tour</a></li>
-          <li class="gutter-2 push-1-2"><a href="pricing.html">Pricing</a></li>
-          <li class="gutter-2 push-1-2"><a href="sign-up.html">Sign-Up</a></li>
-          <li class="gutter-2 push-1-2"><a href="index.html">Sign-In</a></li>
-        </ul>
-      </nav>
+
+      <div class="unit xs-1-2 s-1-2 m-3-4 l-3-4 xl-3-4 pad-t-2 push">
+        <nav>
+          <ul class="grid list-group-inline center-flow">
+
+            <li class="unit xs-1 s-1-2 m-1-4 l-1-4 xl-1-4 push-1-2"><a class="island-1-4 gutter" href="tour.html">Tour</a></li>
+            <li class="unit xs-1 s-1-2 m-1-4 l-1-4 xl-1-4 push-1-2"><a class="island-1-4 gutter" href="pricing.html">Pricing</a></li>
+            <li class="unit xs-1 s-1-2 m-1-4 l-1-4 xl-1-4 push-1-2"><a class="island-1-4 gutter" href="sign-up.html">Sign-Up</a></li>
+            <li class="unit xs-1 s-1-2 m-1-4 l-1-4 xl-1-4 push-1-2"><a class="island-1-4 gutter" href="index.html">Sign-In</a></li>
+
+          </ul>
+        </nav>
+      </div>
+
     </div>
+
   </header>
 
-  <main>
+  <main class="pad-t-2">
 
-    <form method="POST" action="https://formspree.io/julian_redmond@hotmail.com">
+    <form class="pink island" method="post" action="https://formspree.io/julian_redmond@hotmail.com">
+
       <fieldset>
-        <legend class="purpleheaders">Sign Up Now</legend>
+        <legend class="purpleheaders text-upper giga">Sign Up Now</legend>
       </fieldset>
-        <label for="first-name">First Name:</label>
-        <input id="first-name" type="text">
-        <label for="last-name">Last Name:</label>
-        <input id="last-name" type="text">
-        <label for="province">Province:</label>
-        <input id="province" list="province-list">
-        <datalist id="province-list">
-          <option value="Ontario">
-          <option value="New Brunswick">
-          <option value="Quebec">
-        </datalist>
-        <label for="email">Email:</label>
-        <input id="email" type="email">
-        <label for="choose-plan">Choose Plan:</label>
-        <select id="choose-plan">
-          <option>Basic Plan</option>
-          <option>Pro Plan</option>
-          <option>Super Plan</option>
-          <option>Ultra Plan</option>
-        </select>
-        <label for="robot">I am not a robot</label>
-        <input id="robot" type="checkbox" name="robots">
-        <button class="button" type="submit">Register</button>
-        <p><a href="">Already have an account with us?</a></p>
-      </form>
 
+      <label for="first-name">First Name:</label>
+      <input id="first-name" type="text">
 
+      <label for="last-name">Last Name:</label>
+      <input id="last-name" type="text">
+
+      <label for="province">Province:</label>
+      <input id="province" list="province-list">
+      <datalist id="province-list">
+        <option value="Ontario">
+        <option value="New Brunswick">
+        <option value="Quebec">
+        <option value="Manitoba">
+        <option value="Winnipeg">
+        <option value="Nunavut">
+        <option value="British Columbia">
+        <option value="Alberta">
+        <option value="Nova Scotia">
+        <option value="Saskatchewan">
+        <option value="Newfoundland and Labrador">
+        <option value="Prince Edward Island">
+        <option value="Yukon">
+        <option value="Northwest Territories">
+      </datalist>
+
+      <label for="email">Email:</label>
+      <input id="email" type="email">
+
+      <label for="choose-plan">Choose Plan:</label>
+      <select class="push" id="choose-plan">
+        <option>Basic Plan</option>
+        <option>Pro Plan</option>
+        <option>Super Plan</option>
+        <option>Ultra Plan</option>
+      </select>
+
+      <button class="button bold push" type="submit">Register</button>
+      <p class="milli push-none"><a class="account" href="index.html">Already have an account with us?</a></p>
+
+    </form>
 
   </main>
 
+  <br>
+  <br>
+
   <footer>
-    <div class="">
-      <div class="inline-block island width-half">
-        <p class="push-none">613-123-4567</p>
+
+    <div class="grid">
+
+      <div class="unit xs-1-2 s-1-2 m-1-2 l-1-2 xl-1-2 inline-block island micro">
+        <p class="push-none"><a class="phone" href="">613-123-4567</a></p>
         <p class="push-none">123 Fake St. Ottawa, ON</p>
         <p class="push-none">&copy 2018 Julian Redmond All Rights Reserved</p>
       </div>
-      <i class="icon i-96 inline-block valign-top">
-        <img class="" src="images/facebook.svg" alt="">
-      </i>
+
+      <div class="unit xs-1-2 s-1-2 m-1-2 l-1-2 xl-1-2 unit-content-center">
+        <i class="icon i-96 inline-block valign-top">
+          <img class="" src="images/facebook.svg" alt="">
+        </i>
+      </div>
+
     </div>
+
   </footer>
 
-
-
-
 </body>
+
 </html>
