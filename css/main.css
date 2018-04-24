@@ -77,6 +77,15 @@ footer {
 
 .cards {
   background-color: #5fbef0;
+  border-radius: 10px;
+  padding: 1em;
+
+}
+
+.card-button {
+  background-color: #864c7d;
+  border-radius: 7px;
+  color: #fff;
 }
 
 .pink {
