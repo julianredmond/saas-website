@@ -60,11 +60,6 @@ main {
   color: #000;
 }
 
-.banner {
-  position: relative;
-  bottom: 10em;
-}
-
 .purpleheaders {
   font-family: Righteous, cursive;
   color: #864c7d;
@@ -114,28 +109,4 @@ fieldset {
 
 .icons {
   display: inline-block;
-}
-
-@media only screen and (min-width: 25em) {
-
-  .banner {
-    bottom: 12em;
-  }
-
-}
-
-@media only screen and (min-width: 38em) {
-
-  .banner {
-    bottom: 17em;
-  }
-
-}
-
-@media only screen and (min-width: 60em) {
-
-  .banner {
-    bottom: 20em;
-  }
-
 }
